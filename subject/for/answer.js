@@ -3,7 +3,7 @@
   （最初が5、最後が100になるよ！）
 */
 
-for (var step = 1; step < 21; step++) {
+for (var step = 1; step <= 20; step++) {
   var result = step * 5;
   console.log(result);
 }
